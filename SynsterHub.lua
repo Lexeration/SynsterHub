@@ -32,6 +32,9 @@ MainContainer.ImageColor3 = Color3.fromRGB(45, 45, 45)
 MainContainer.ScaleType = Enum.ScaleType.Slice
 MainContainer.SliceCenter = Rect.new(100, 100, 100, 100)
 MainContainer.SliceScale = 0.04
+MainContainer.Draggable = true
+MainContainer.Active = true
+MainContainer.Selectable = true
 
 NameLabel.Name = "NameLabel"
 NameLabel.Parent = MainContainer
